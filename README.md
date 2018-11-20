@@ -12,10 +12,11 @@
 
 获取OpenId，其将返回一个Map
 
-| type | 内容 | 备注|
+| type | 内容 | 备注 |
+|------|------|-----|
 | null | null | 返回值为空|
 | errCode | 错误码 |      |
-| session_key | session_key值|  |
+| session_key | session_key值||  
 | openid | openid值|  |
 
 * public String granToken(String userid)
