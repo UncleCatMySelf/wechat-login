@@ -1,0 +1,12 @@
+wechat:
+  wxurl: https://api.weixin.qq.com/sns/jscode2session?
+  appid: wxabc2f8828c8e0048
+  appsecret: cec2412a3af99200f4573c337715329a
+  granttype: authorization_code
+  redis:
+    expire: 7200
+    wxtoken: wx_token_%s
+spring:
+  redis:
+    port: 6379
+    host: 192.168.192.132
