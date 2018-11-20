@@ -93,5 +93,4 @@ public class WechatTemplate {
         return true;
     }
 
-
 }

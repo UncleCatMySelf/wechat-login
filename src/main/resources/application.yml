@@ -1,7 +1,7 @@
 wechat:
   wxurl: https://api.weixin.qq.com/sns/jscode2session?
   appid: wxabc2f8828c8e0048
-  appsecret: cec2412a3af99200f4573c337715329a
+  appsecret: cec2412a3af99200f4573c337715329e
   granttype: authorization_code
   redis:
     expire: 7200
